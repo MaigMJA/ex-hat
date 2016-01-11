@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+}
+
+.fond{
+  height: 800px;
+  width: 1000px;
+  background: linear-gradient(to bottom, white, blue);
+  opacity: 0.3;
+  z-index: 1;
+  position: fixed;
+}
+
+@font-face {
+  font-family:'FACEBOLF.OTF';
+
+  src:url(./FACEBOLF.OTF);
+  font-family: 'FACEBOLF.OTF';
+}
+
+
+p{
+  font-family: sans-serif;
+  font-weight: inherit;
+}
+
+h1{
+  font-family: 'FACEBOLF.OTF';
+  padding: 30px 20px 20px 20px;
+  position:absolute;
+  color: white;
+}
+
+#header{
+height:70px;
+width:auto;
+background-color: #3b5998;
+padding: 0 100px;
+z-index: 3;
+}
+
+.entrees{
+  right:0;
+  position: absolute;
+}
+
+.blockinput{
+  height: 10px;
+  width: 50px;
+  background-color: white;
+}
+
+
+
+.middlecont{
+  text-align: center;
+  margin: 0 30px 0 30px;
+
+}
+
+.midleft{
+  top:180px;
+  left:50px;
+  position: absolute;
+}
+
+ul{
+  left: 600px;
+  position: absolute;
+  top:150px;
+}
+
+li{
+  padding: 3px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 2px;
+  width: 200px;
+  list-style-type: none;
+  color:grey;
+  position: relative;
+  right:30px;
+}
+
+.inscription{
+  font:18px bold;
+  color:white;
+  background-color: green;
+  border-radius:5px;
+  padding: 3px;
+  height:20px;
+  width: 200px;
+  text-align: center;
+  left:575px;
+  top:380px;
+  position: absolute;
+}
+
+#footer{
+  background-color: white;
+  height:140px;
+  width: auto;
+  padding: 0 100px;
+  position: absolute;
+  top:500px;
+  left:0;
+}
+
+#footer p{
+  color:grey;
+  bottom:0;
+}
+
+.pblue, .pblack, .pwhite{
+font-size: 9px;
+}
+
+.pblue{
+  color:#3b5998;
+}
+
+.pblack{
+  color:black;
+}
+
+.pwhite{
+  color:white;
+}
+
+.container{
+  /*background: linear-gradient(to bottom, white, blue);
+  opacity: 0.3;*/
+}
