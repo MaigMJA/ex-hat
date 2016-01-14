@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: white;
+  height: 100%;
+  min-height: 360px;
+  width: 100%;
+  min-width: 500pxpx;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  /*display: inline-block;*/
+  margin: 1px;
+  padding: 2px;
+  font-size: 12px;
+}
+
+header, footer {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+}
+
+.headerr {
+  top: 0;
+  margin-left: 70%;
+  width: 100%;
+  position: absolute;
+  padding: 5px;
+}
+
+.footerl, .footerr {
+  /*bottom: 0;*/
+  margin-top: 53%;
+  width: 100%;
+  position: absolute;
+  padding: 5px;
+}
+.footerr {
+  margin-left: 70%;
+}
+
+header ul li {
+  position: relative;
+  padding: 4px;
+  margin: 2px;
+  display: inline;
+  list-style: none;
+}
+
+/*bloc*/
+.logo {
+  margin: auto;
+  text-align: center;
+  top: 350px;
+  position:relative;;
+}
+
+/*police*/
+#logo  {
+  font-family: : arial;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+/*lettre du logo central google*/
+.logo input {width: 260px;
+margin-top:340px}
+
+.lblue {
+  color: blue;
+}
+.lred {
+  color: red;
+}
+.lyellow {
+  color: yellow;
+}
+.lgreen {
+  color: green;
+}
+
+li, #logo ul li, header ul li, footer ul li {
+  display: inline;
+  list-style: none;
+}
+li, header ul li, footer ul li {
+  font: arial 12px grey;
+}
+#connexion {background-color: green;
+  border-radius: 2px;
+color:white;}
